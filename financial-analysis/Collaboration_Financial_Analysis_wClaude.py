@@ -2,7 +2,6 @@
 # pip install crewai
 # pip install litellm
 # pip install openai
-# pip install langchain_community
 
 # Import necessary libraries
 from crewai import Agent, Task, Crew, LLM, Process
