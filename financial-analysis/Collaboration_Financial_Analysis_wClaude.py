@@ -1,5 +1,6 @@
 # Install necessary libraries
 # pip install crewai
+# pip install crewai-tools
 # pip install litellm
 # pip install openai
 # pip install langchain_community
