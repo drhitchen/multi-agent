@@ -13,6 +13,15 @@ This system utilizes multiple AI agents to analyze financial markets, develop tr
 - **Trade Advisor**: Suggests optimal trade execution strategies.
 - **Risk Advisor**: Evaluates and provides insights on the risks associated with potential trading activities.
 
+## Cloning the Repository
+
+To get started, clone the main repository:
+
+```sh
+git clone https://github.com/drhitchen/multi-agent.git
+cd multi-agent/financial-analysis
+```
+
 ## Installation
 
 To use this project, first create a virtual environment and install the dependencies:
