@@ -35,8 +35,11 @@ pip install -r requirements.txt
 Ensure you have the necessary environment variables set up in a `.env` file:
 
 ```sh
-OPENAI_API_KEY=your_openai_api_key
-ANTHROPIC_API_KEY=your_anthropic_api_key
+# You must provide either an OpenAI API key or an Anthropic API key
+OPENAI_API_KEY=your_openai_api_key  # Required if using OpenAI models
+ANTHROPIC_API_KEY=your_anthropic_api_key  # Required if using Anthropic models
+
+# A SERPER API key is required regardless of the model used
 SERPER_API_KEY=your_serper_api_key
 ```
 
